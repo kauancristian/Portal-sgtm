@@ -75,7 +75,7 @@
     section#inicio > p{
         font-size: 1.2em;
         padding: 35px;
-        transform: translate(-3px, 185px);
+        transform: translate(-1px, 185px);
     }
 }
 
