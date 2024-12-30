@@ -65,14 +65,14 @@
 
     section#inicio > h1#h1mb{
         position: relative;
-        transform: translate(-10px, 200px);
+        transform: translate(-7px, 200px);
         font-size: 2.1em;
     }
 
     section#inicio > p{
         font-size: 1.2em;
         padding: 35px;
-        transform: translate(-10px, 185px);
+        transform: translate(-7px, 185px);
     }
 }
 
