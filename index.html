@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="main/css/style.css">
+    <link rel="stylesheet" href="main/css/media-queries.css">
+    <title>Salaberga</title>
+</head>
+<body>
+    <header>
+        
+        <i id="burguer" class="material-icons" onclick="abrirMenu()">
+            menu
+        </i>
+        <menu id="itens">
+            <h3>Menu</h3>
+            <i id="x" class="material-icons" onclick="fecharMenu()">
+                close
+            </i>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i id="ico" class="material-icons">
+                            home
+                        </i>
+                        Início</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i id="ico" class="material-icons">
+                            info
+                        </i>   
+                        Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i id="ico" class="material-icons">
+                            library_books
+                        </i>
+                    Cursos</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                    <i id="ico" class="material-icons">
+                        view_list
+                    </i>
+                    Galeria</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                    <i id="ico" class="material-icons">
+                        collections
+                    </i>
+                    Parceiros</a>
+                </li>
+
+                <li> 
+                    <a href="#">
+                        <i id="ico" class="material-icons">
+                            church
+                        </i>
+                    Entrar</a>
+                </li>
+            </ul>
+        </menu>
+    </header>
+
+
+    <main>
+        <!-- Início do portal com imagem -->
+        <section id="fundo-imagem"> 
+            
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        function abrirMenu(){
+            if(itens.style.display == 'none'){
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
+            }
+        }
+
+        function fecharMenu () {
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</htm

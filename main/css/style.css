@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+/* Geral */
+
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --verde:#008C45;
+    --laranja:#FFA500;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: var(--verde) ;
+    height: 82.5px;
+    width: 100vw;
+    z-index: 10;
+}
+
+
+    menu > ul > li > a{
+        text-decoration: none;
+        color: white;
+        transition: all ease-out 270ms;
+        font-size: 1.02em;
+        outline: none;  
+    }
+
+        menu > ul > li > a:hover{
+            color:#FFA500 ;
+        }
+
+    menu > ul > li{
+        list-style: none;
+        padding-bottom: 15px;
+    }
+
+    menu > ul > li > a > #ico{
+        position: relative;
+        transform: translate(7px, 5px);
+        font-size: 1.3em;
+    }
+
+
+    /* -------------------------------------------------------- */
+
+    section#fundo-imagem{
+        background:url(../assets/img/fundo-imagem-sgtm.jpeg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 100vw;
+        height: 650px;
+    }
+
+
+    
+
+   
+
+
+
+      
+
+   
+    
