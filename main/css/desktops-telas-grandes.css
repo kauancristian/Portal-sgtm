@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Desktops */
+
+@media screen and (min-width:1024px) {
+
+    header{
+        position: fixed;
+    }
+
+    menu{
+        display: block !important;
+    }
+
+    menu > ul{
+        text-align: right;
+        position: relative;
+        transform: translate(-6%, 25px);
+        word-spacing: 6px;
+        color: white;
+    }
+
+    menu > ul > li{
+        list-style: none;
+        display: inline-block;
+    }
+
+    menu h3{
+        display: none;
+    }
+
+    #burguer{
+        display: none;
+    }
+
+    #x{
+        display: none;
+    }
+
+    #h1mb{
+        display: none;
+    }
+
+    #h1pc{
+        position: relative;
+        font-size: 3.7em;
+    }
+}

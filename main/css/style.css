@@ -16,7 +16,6 @@
 }
 
 html{
-    width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
 }
@@ -26,6 +25,7 @@ header{
     height: 82.5px;
     width: 100vw;
     z-index: 10;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
 }
 
 
@@ -38,7 +38,7 @@ header{
     }
 
         menu > ul > li > a:hover{
-            color:#FFA500 ;
+            color:var(--laranja) ;
         }
 
     menu > ul > li{
@@ -55,13 +55,31 @@ header{
 
     /* -------------------------------------------------------- */
 
-    section#fundo-imagem{
-        background:url(../assets/img/fundo-imagem-sgtm.jpeg) no-repeat;
-        background-position: center center;
+    section#inicio{
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url(../assets/img/fundo-imagem-sgtm.jpeg) no-repeat;
+        background-position: center ;
         background-size: cover;
-        width: 100vw;
         height: 650px;
     }
+
+    section#inicio > h1{
+        color: white;
+        position: relative;
+        text-align: center;
+        transform: translate(0, 250px);
+        font-weight: bold;
+    }
+
+ 
+    section#inicio > p{
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        transform: translate(-10px, 272px);
+    }
+
+
+    
 
 
     
