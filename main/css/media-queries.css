@@ -45,7 +45,7 @@
         border: 1px solid #f38507;
         font-size: 17px;
         padding: 5px 9px 5px 9px;
-        transform: translate(19.2em, 29px);
+        transform: translate(18em, 29px);
         border-radius: 5px;
         transition: all ease-in-out 300ms;
         position: fixed;
@@ -106,7 +106,7 @@
         border: 1px solid #f38507;
         font-size: 17px;
         padding: 5px 9px 5px 9px;
-        transform: translate(21em, 29px);
+        transform: translate(19em, 29px);
         border-radius: 5px;
         transition: all ease-in-out 300ms;
         position: fixed;
