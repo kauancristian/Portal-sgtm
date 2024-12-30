@@ -32,7 +32,7 @@
         color: white;
         font-size: 1.29em;
         position: relative;
-        transform: translate(4%, 12px);
+        transform: translate(4%, 28px);
     }
 
     menu{
@@ -57,7 +57,7 @@
 
     #x{
         color: white;
-        transform: translate(350px);
+        transform: translate(330px);
         position: relative;
     }
 }
