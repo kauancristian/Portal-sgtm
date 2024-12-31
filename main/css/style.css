@@ -31,15 +31,17 @@ header{
     /* Configurçãoes de Menu, onde estará os links do portal */
     menu{
         z-index: 10;
+        
         transition: width 0.5s, height 0.5s;
     }
 
         menu > ul > li > a{
             text-decoration: none;
             color: white;
-            transition: all ease-out 270ms;
             font-size: 1.02em;
             outline: none;  
+
+            transition: all ease-out 270ms;
         }
 
             menu > ul > li > a:hover{
@@ -53,8 +55,9 @@ header{
 
         menu > ul > li > a > #ico{
             position: relative;
-            transform: translate(7px, 5px);
             font-size: 1.3em;
+
+            transform: translate(7px, 5px);
             transition: all ease 240ms;  
         }
 
@@ -66,23 +69,25 @@ header{
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url(../assets/img/fundo-imagem-sgtm.jpeg) no-repeat;
         background-position: center ;
         background-size: cover;
-        height: 650px;
+        height: 675px;
     }
 
         section#inicio > h1{
             color: white;
             position: relative;
             text-align: center;
-            transform: translate(0, 250px);
             font-weight: bold;
+
+            transform: translate(0, 240px);
         }
 
  
         section#inicio > p{
             color: white;
-            font-size: 23px;
+            font-size: 23.5px;
             text-align: center;
-            transform: translate(-10px, 272px);
+
+            transform: translate(-10px, 260px);
         }
 
         section#inicio > button#cursos{
@@ -114,6 +119,31 @@ header{
             }
 
 
+        @keyframes Seta{
+
+            0% {
+                margin-top: 10px;
+            }
+        
+            50% {
+                margin-top: 20px;
+            }
+        
+            100% {
+                margin-top: 10px;
+            }
+        }
+        
+
+        i#icoseta{
+            color: #FAFAFA;
+            position: absolute;
+            font-size: 3em;
+
+            animation: Seta 1s ease-in-out infinite;
+        }
+
+
     
 
 
@@ -126,4 +156,4 @@ header{
       
 
    
-    
+   

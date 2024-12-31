@@ -31,6 +31,7 @@
             color: white;
             font-size: 1.29em;
             position: relative;
+
             transform: translate(4%, 12px);
         }
 
@@ -52,7 +53,8 @@
 
     #x{
         color: white;
-        transform: translate(700px);
         position: relative;
+
+        transform: translate(700px);
     }
 }

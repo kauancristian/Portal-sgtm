@@ -2,7 +2,7 @@
 
 /* Celulares Pequenos*/
 
-@media screen and (min-width:370px) and (max-width:399px) {
+@media screen and (min-width:360px) and (max-width:399px) {
     menu{
         background-color: #028744;
         height: 100vh;
@@ -30,6 +30,7 @@
         color: white;
         font-size: 1.29em;
         position: relative;
+
         transform: translate(4%, 28px);
     }
 
@@ -43,10 +44,11 @@
         border: 1px solid #FFA500;
         font-size: 17px;
         padding: 5px 9px 5px 9px;
-        transform: translate(18em, 29px);
         border-radius: 5px;
-        transition: all ease-in-out 300ms;
         position: fixed;
+
+        transform: translate(19em, 29px);
+        transition: all ease-in-out 300ms;
     }
 
     #burguer:active{
@@ -55,8 +57,9 @@
 
     #x{
         color: white;
-        transform: translate(310px, 20px);
         position: relative;
+
+        transform: translate(310px, 20px);
     }
 
     #h1pc{
@@ -65,34 +68,43 @@
 
     section#inicio > h1#h1mb{
         position: relative;
-        transform: translate(-7px, 200px);
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -108%);
-        font-size: 2.1em;
+        font-size: 2.2em;
+
+        transform: translate(-50%, -141%);
     }
 
     section#inicio > p{
         font-size: 1.2em;
         padding: 35px;
-        transform: translate(-1px, 185px);
+
+        transform: translate(-1px, 160px);
     }
 
     section#inicio > button#cursos{
         position: relative;
         top: 50%;
         left: 50%;
-        width: 61%;
-        height: 46px;
-        padding-bottom: 15px;
+        width: 65%;
+        height: 48.5px;
+        padding-bottom: 12.5px;
         padding-right: 7px;
-        transform: translate(-50%, -285%);
+
+        transform: translate(-50%, -340%);
     }
 
         section#inicio > button#cursos:hover{
-            margin-top: -px;
-            width: 63%;
-            height: 48px;
+            margin-top: -5px;
+            width: 67%;
+            height: 49px;
+        }
+
+        #icoseta{
+            top:50%;
+            left: 50%;
+
+            transform: translate(-50%, 520%);
         }
 }
 
@@ -108,27 +120,28 @@
     }
     
 
-        menu > ul{
-            transform: translate(-2px, 1%);
-        }
+    menu > ul{
+        transform: translate(-2px, 1%);
+    }
 
-            menu > ul > li{
-                padding: 18px;
-                font-size: 1.15em;
-            
-            }
-            
-                menu > ul > li > a > #ico{
-                    position: relative;
-                    padding-right: 20px;
-                }
+    menu > ul > li{
+        padding: 18px;
+        font-size: 1.15em;
+       
+    }
+    
+    menu > ul > li > a > #ico{
+        position: relative;
+        padding-right: 20px;
+    }
 
-        menu > h3{
-            color: white;
-            font-size: 1.29em;
-            position: relative;
-            transform: translate(4%, 28px);
-        }
+    menu > h3{
+        color: white;
+        font-size: 1.29em;
+        position: relative;
+
+        transform: translate(4%, 28px);
+    }
 
     menu{
         display: none;
@@ -140,10 +153,11 @@
         border: 1px solid #FFA500;
         font-size: 17px;
         padding: 5px 9px 5px 9px;
-        transform: translate(19em, 29px);
         border-radius: 5px;
-        transition: all ease-in-out 300ms;
         position: fixed;
+
+        transform: translate(21em, 29px);
+        transition: all ease-in-out 300ms;
     }
 
     #burguer:active{
@@ -152,12 +166,9 @@
 
     #x{
         color: white;
-        transform: translate(320px, 10px);
         position: relative;
-    }
 
-    section#inicio > h1{
-        font-size: 5em;
+        transform: translate(310px, 20px);
     }
 
     #h1pc{
@@ -166,14 +177,42 @@
 
     section#inicio > h1#h1mb{
         position: relative;
-        transform: translate(-10px, 200px);
-        font-size: 2.1em;
+        top: 50%;
+        left: 50%;
+        font-size: 2.2em;
+
+        transform: translate(-50%, -141%);
     }
 
     section#inicio > p{
         font-size: 1.2em;
         padding: 35px;
-        transform: translate(-10px, 185px);
+
+        transform: translate(-1px, 160px);
     }
 
+    section#inicio > button#cursos{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 65%;
+        height: 48.5px;
+        padding-bottom: 12.5px;
+        padding-right: 7px;
+
+        transform: translate(-50%, -330%);
+    }
+
+        section#inicio > button#cursos:hover{
+            margin-top: -5px;
+            width: 63%;
+            height: 48px;
+        }
+
+    #icoseta{
+        top:50%;
+        left: 50%;
+
+        transform: translate(-50%, 430%);
+    }
 }
