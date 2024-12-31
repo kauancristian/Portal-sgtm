@@ -37,7 +37,7 @@
         display: none;
     }
 
-    
+    /* Hamburguer Menu, aparece em tablets e celulares para guardar o menu dentro */
     #burguer{
         color: #FFA500;
         border: 1px solid #FFA500;

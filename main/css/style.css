@@ -28,8 +28,10 @@ header{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
 }
 
+    /* Configurçãoes de Menu, onde estará os links do portal */
     menu{
         z-index: 10;
+        transition: width 0.5s, height 0.5s;
     }
 
     menu > ul > li > a{
@@ -58,6 +60,7 @@ header{
 
     /* -------------------------------------------------------- */
 
+    /* Configuração da primeira sessão do portal, onde possui uma imagem de fundo */
     section#inicio{
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url(../assets/img/fundo-imagem-sgtm.jpeg) no-repeat;
         background-position: center ;
