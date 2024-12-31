@@ -77,6 +77,23 @@
         padding: 35px;
         transform: translate(-1px, 185px);
     }
+
+    section#inicio > button#cursos{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 61%;
+        height: 46px;
+        padding-bottom: 15px;
+        padding-right: 7px;
+        transform: translate(-50%, -285%);
+    }
+
+        section#inicio > button#cursos:hover{
+            margin-top: -px;
+            width: 63%;
+            height: 48px;
+        }
 }
 
 /* ------------------------------------------- */
@@ -91,27 +108,27 @@
     }
     
 
-    menu > ul{
-        transform: translate(-2px, 1%);
-    }
+        menu > ul{
+            transform: translate(-2px, 1%);
+        }
 
-    menu > ul > li{
-        padding: 18px;
-        font-size: 1.15em;
-       
-    }
-    
-    menu > ul > li > a > #ico{
-        position: relative;
-        padding-right: 20px;
-    }
+            menu > ul > li{
+                padding: 18px;
+                font-size: 1.15em;
+            
+            }
+            
+                menu > ul > li > a > #ico{
+                    position: relative;
+                    padding-right: 20px;
+                }
 
-    menu > h3{
-        color: white;
-        font-size: 1.29em;
-        position: relative;
-        transform: translate(4%, 28px);
-    }
+        menu > h3{
+            color: white;
+            font-size: 1.29em;
+            position: relative;
+            transform: translate(4%, 28px);
+        }
 
     menu{
         display: none;

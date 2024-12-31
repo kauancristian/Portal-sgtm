@@ -12,22 +12,22 @@
         display: block !important;
     }
 
-    menu > ul{
-        text-align: right;
-        position: relative;
-        transform: translate(-6%, 25px);
-        word-spacing: 6px;
-        color: white;
-    }
+        menu > ul{
+            text-align: right;
+            position: relative;
+            transform: translate(-6%, 25px);
+            word-spacing: 6px;
+            color: white;
+        }
 
-    menu > ul > li{
-        list-style: none;
-        display: inline-block;
-    }
+            menu > ul > li{
+                list-style: none;
+                display: inline-block;
+            }
 
-    menu h3{
-        display: none;
-    }
+        menu h3{
+            display: none;
+        }
 
     #burguer{
         display: none;
@@ -45,4 +45,29 @@
         position: relative;
         font-size: 3.7em;
     }
+
+    section#inicio > button#cursos{
+        font-size: 1em;
+        background-color: #FFFEFD;
+        color: #0B914D;
+        font-weight: bold;
+        padding-bottom: 48px;
+        width: 20%;
+        height: 45px;
+        top: 50%;
+        left: 50%;
+        border: none;
+        border-radius: 25px;
+        position: relative;
+        cursor: pointer;
+
+        transition: all ease-in-out 240ms;
+        transform: translate(-55%, -30%);
+    }
+
+        section#inicio > button#cursos:hover{
+            margin-top: -10px;
+            width: 21%;
+            height: 50px;
+        }
 }

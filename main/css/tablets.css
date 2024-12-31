@@ -9,33 +9,31 @@
         height: 100vh;
         text-indent: 3px;
         position: relative;
-    }
-
-    menu > ul{
-        transform: translate(-2px, 1%);
-    }
-
-    menu > ul > li{
-        padding: 18px;
-        font-size: 1.15em;
-       
-    }
-    
-    menu > ul > li > a > #ico{
-        position: relative;
-        padding-right: 20px;
-    }
-
-    menu > h3{
-        color: white;
-        font-size: 1.29em;
-        position: relative;
-        transform: translate(4%, 12px);
-    }
-
-    menu{
         display: none;
     }
+
+        menu > ul{
+            transform: translate(-2px, 1%);
+        }
+
+            menu > ul > li{
+                padding: 18px;
+                font-size: 1.15em;
+            
+            }
+        
+                menu > ul > li > a > #ico{
+                    position: relative;
+                    padding-right: 20px;
+                }
+
+        menu > h3{
+            color: white;
+            font-size: 1.29em;
+            position: relative;
+            transform: translate(4%, 12px);
+        }
+
 
     /* Hamburguer Menu, aparece em tablets e celulares para guardar o menu dentro */
     #burguer{

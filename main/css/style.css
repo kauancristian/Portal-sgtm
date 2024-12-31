@@ -34,28 +34,29 @@ header{
         transition: width 0.5s, height 0.5s;
     }
 
-    menu > ul > li > a{
-        text-decoration: none;
-        color: white;
-        transition: all ease-out 270ms;
-        font-size: 1.02em;
-        outline: none;  
-    }
-
-        menu > ul > li > a:hover{
-            color:var(--laranja) ;
+        menu > ul > li > a{
+            text-decoration: none;
+            color: white;
+            transition: all ease-out 270ms;
+            font-size: 1.02em;
+            outline: none;  
         }
 
-    menu > ul > li{
-        list-style: none;
-        padding-bottom: 15px;
-    }
+            menu > ul > li > a:hover{
+                color:var(--laranja) ;
+            }
 
-    menu > ul > li > a > #ico{
-        position: relative;
-        transform: translate(7px, 5px);
-        font-size: 1.3em;
-    }
+        menu > ul > li{
+            list-style: none;
+            padding-bottom: 15px;
+        }
+
+        menu > ul > li > a > #ico{
+            position: relative;
+            transform: translate(7px, 5px);
+            font-size: 1.3em;
+            transition: all ease 240ms;  
+        }
 
 
     /* -------------------------------------------------------- */
@@ -68,21 +69,49 @@ header{
         height: 650px;
     }
 
-    section#inicio > h1{
-        color: white;
-        position: relative;
-        text-align: center;
-        transform: translate(0, 250px);
-        font-weight: bold;
-    }
+        section#inicio > h1{
+            color: white;
+            position: relative;
+            text-align: center;
+            transform: translate(0, 250px);
+            font-weight: bold;
+        }
 
  
-    section#inicio > p{
-        color: white;
-        font-size: 23px;
-        text-align: center;
-        transform: translate(-10px, 272px);
-    }
+        section#inicio > p{
+            color: white;
+            font-size: 23px;
+            text-align: center;
+            transform: translate(-10px, 272px);
+        }
+
+        section#inicio > button#cursos{
+            font-size: 1em;
+            background-color: #FFFEFD;
+            color: #0B914D;
+            font-weight: bold;
+            border: none;
+            border-radius: 25px;
+            position: relative;
+            cursor: pointer;
+            outline: none;
+
+            transition: all ease 180ms;
+        }
+    
+
+            section#inicio > button#cursos:hover{
+                color: white;
+                background-color: #FFA500;
+            }
+
+            #ico-cursos{
+                display: inline-block;
+                padding: 5px;
+
+                transition: all ease 250ms;
+                transform: translate(0, 5px);                
+            }
 
 
     
