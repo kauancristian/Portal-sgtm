@@ -6,6 +6,7 @@
 
     header{
         position: fixed;
+        box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.363);
     }
 
     menu{
@@ -48,6 +49,7 @@
         font-size: 3.7em;
     }
 
+    /* Configuração da primeira sessão do portal, onde possui uma imagem de fundo */
     section#inicio > button#cursos{
         font-size: 1em;
         background-color: #FFFEFD;
@@ -61,18 +63,18 @@
         left: 50%;
         border: none;
         border-radius: 25px;
-        position: relative;
+        position: absolute;
         cursor: pointer;
 
         transition: all ease-in-out 260ms;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 340%);
     }
 
         section#inicio > button#cursos:hover{
-            margin-top: -30px;
+            margin-top: -18px;
             width: 20%;
             height: 50px;
-            position: relative;
+            font-size: 1.1em;
         }
 
         div#seta > a > i#icoseta{
@@ -80,6 +82,20 @@
             top: 50%;
             left: 50%;
 
-            transform: translate(-50%, 393px);
+            transform: translate(-50%, 440.5px);
         }
+
+    /* Configurando segunda sessão do portal */
+
+    section#nossa-historia > h3{
+        font-size: 42px;
+        position: absolute;
+        padding: 88px;
+        left: 440px;
+        }
+
+            h3::after{
+                width: 147px;
+                transform: translate(-221px, 62px);
+            }
 }

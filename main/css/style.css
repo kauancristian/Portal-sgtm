@@ -25,13 +25,11 @@ header{
     height: 82.5px;
     width: 100vw;
     z-index: 10;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
 }
 
     /* Configurçãoes de Menu, onde estará os links do portal */
     menu{
         z-index: 10;
-        
         transition: width 0.5s, height 0.5s;
     }
 
@@ -61,8 +59,16 @@ header{
             transition: all ease 240ms;  
         }
 
+        #burguer{
+            position: fixed;
+        }
+
 
     /* -------------------------------------------------------- */
+
+    section{
+        background-color: #F8F9FA;
+    }
 
     /* Configuração da primeira sessão do portal, onde possui uma imagem de fundo */
     section#inicio{
@@ -97,7 +103,7 @@ header{
             font-weight: bold;
             border: none;
             border-radius: 25px;
-            position: relative;
+            position: absolute;
             cursor: pointer;
             outline: none;
 
@@ -139,9 +145,34 @@ header{
             color: #FAFAFA;
             position: absolute;
             font-size: 3em;
+            transition: all ease-out 480ms;
 
             animation: Seta 1s ease-in-out infinite;
         }
+
+            i#icoseta:hover{
+                color: #FFA500;
+            }
+
+        /* -------------------------------------------------------------------------- */
+
+        /* Configurando segunda sessão do portal */
+
+        section#nossa-historia{
+            height: 675px;
+        }
+
+            section#nossa-historia > h3{
+                color: #007A33;
+            }
+
+                h3::after{
+                    content: '';
+                    background-color: #FFA500;
+                    width: 100px;
+                    height: 3px;
+                    position: absolute;
+                }
 
 
     

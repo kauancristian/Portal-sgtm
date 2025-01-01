@@ -3,6 +3,11 @@
 /* Celulares Pequenos*/
 
 @media screen and (min-width:360px) and (max-width:399px) {
+
+    header{
+        position: fixed;
+    }
+
     menu{
         background-color: #028744;
         height: 100vh;
@@ -66,20 +71,28 @@
         display: none;
     }
 
+
+    /* Configuração da primeira sessão do portal, onde possui uma imagem de fundo */
+
+    section#inicio{
+        height: 780px;
+    }
+
     section#inicio > h1#h1mb{
         position: relative;
         top: 50%;
         left: 50%;
         font-size: 2.2em;
 
-        transform: translate(-50%, -141%);
+        transform: translate(-50%, -30%);
     }
+
 
     section#inicio > p{
         font-size: 1.2em;
         padding: 35px;
 
-        transform: translate(-1px, 160px);
+        transform: translate(-1px, 340px);
     }
 
     section#inicio > button#cursos{
@@ -91,7 +104,7 @@
         padding-bottom: 12.5px;
         padding-right: 7px;
 
-        transform: translate(-50%, -340%);
+        transform: translate(-50%, -70%);
     }
 
         section#inicio > button#cursos:hover{
@@ -104,14 +117,31 @@
             top:50%;
             left: 50%;
 
-            transform: translate(-50%, 560%);
+            transform: translate(-50%, 770%);
         }
+
+
+    /* Configurando segunda sessão do portal */
+
+    section#nossa-historia > h3{
+        padding: 50px;
+        font-size: 2em;
+
+        transform: translate(30px, 35px);
+    }
+    
 }
 
 /* ------------------------------------------- */
 
 /* Celulares Adiantes */
 @media screen and (min-width:400px) and (max-width:767px) {
+
+    header{
+        position: fixed;
+    }
+
+
     menu{
         background-color: #028744;
         height: 100vh;
@@ -175,20 +205,26 @@
         display: none;
     }
 
+    /* Configuração da primeira sessão do portal, onde possui uma imagem de fundo */
+
+    section#inicio{
+        height: 900px;
+    }
+
     section#inicio > h1#h1mb{
         position: relative;
         top: 50%;
         left: 50%;
-        font-size: 2.2em;
+        font-size: 2.3em;
 
-        transform: translate(-50%, -141%);
+        transform: translate(-50%, -45%);
     }
 
     section#inicio > p{
         font-size: 1.2em;
         padding: 35px;
 
-        transform: translate(-1px, 160px);
+        transform: translate(-1px, 385px);
     }
 
     section#inicio > button#cursos{
@@ -200,7 +236,7 @@
         padding-bottom: 12.5px;
         padding-right: 7px;
 
-        transform: translate(-50%, -330%);
+        transform: translate(-50%, -110%);
     }
 
         section#inicio > button#cursos:hover{
@@ -213,6 +249,17 @@
         top:50%;
         left: 50%;
 
-        transform: translate(-50%, 500%);
+        transform: translate(-50%, 730%);
     }
-}
+
+
+    /* Configurando segunda sessão do portal */
+
+    section#nossa-historia > h3{
+        padding: 50px;
+        font-size: 2em;
+
+        transform: translate(30px, 35px);
+    }
+
+    }
